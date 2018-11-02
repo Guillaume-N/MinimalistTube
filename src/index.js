@@ -5,6 +5,8 @@ import VideoList from "./components/VideoList";
 import VideoPlayer from "./components/VideoPlayer";
 import Header from "./components/Header";
 import SearchBar from "./components/SearchBar";
+import WelcomeMessage from "./components/WelcomeMessage";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import * as serviceWorker from "./serviceWorker";
@@ -20,6 +22,7 @@ const Root = () => {
         <Switch>
           <Route exact path="/watch/:id" component={VideoPlayer} />
           <Route exact path="/search/:term" component={VideoList} />
+          <Route exact path="/" component={WelcomeMessage} />
         </Switch>
         <Footer />
       </div>
