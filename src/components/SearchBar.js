@@ -6,8 +6,7 @@ class SearchBar extends Component {
     term: ""
   };
 
-  searchVideos = () => {
-    this.props.searchVideos(this.state.term);
+  goToVideoPlayer = () => {
     this.context.router.history.push(`/search/${this.state.term}`);
   };
 
@@ -17,7 +16,7 @@ class SearchBar extends Component {
 
   onFormSubmit = e => {
     e.preventDefault();
-    this.searchVideos();
+    this.goToVideoPlayer();
     this.setState({ term: "" });
   };
 

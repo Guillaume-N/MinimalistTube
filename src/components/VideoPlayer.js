@@ -1,13 +1,8 @@
 import React from "react";
 
 const VideoPlayer = props => {
-  const videoId = props.video;
-  //  const videoId = props.match.params.id ? props.match.params.id : null;
+  const videoId = props.match.params.id;
   const url = `https://www.youtube.com/embed/${videoId}`;
-
-  if (!props && !props.video && !props.video.etag) {
-    return <div>select a video!</div>;
-  }
 
   return (
     <section className="section">
