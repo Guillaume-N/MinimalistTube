@@ -7,7 +7,6 @@ class SearchBar extends Component {
   };
 
   searchVideos = () => {
-    this.props.searchVideos(this.state.term);
     this.context.router.history.push(`/search/${this.state.term}`);
   };
 

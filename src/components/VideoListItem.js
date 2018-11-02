@@ -8,7 +8,6 @@ class VideoListItem extends Component {
 
     const onVideoClick = e => {
       this.context.router.history.push(`/watch/${videoId}`);
-      this.props.showVideo(videoId);
     };
 
     return (
