@@ -23,6 +23,7 @@ const Root = () => {
           <Route exact path="/watch/:id" component={VideoPlayer} />
           <Route exact path="/search/:term" component={VideoList} />
           <Route exact path="/" component={WelcomeMessage} />
+          <Route component={WelcomeMessage} />
         </Switch>
         <Footer />
       </div>
