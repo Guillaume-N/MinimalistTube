@@ -1,6 +1,5 @@
 import searchYoutube from "youtube-api-v3-search";
-
-const API_KEY = "AIzaSyAktD_QpHPS2F42M1PH0IEfOXR9F5hFw5U";
+import YOUTUBE_API_KEY from "./API_KEYS";
 
 const searchVideos = term => {
   const options = {
@@ -8,7 +7,7 @@ const searchVideos = term => {
     part: "snippet",
     type: "video"
   };
-  return searchYoutube(API_KEY, options);
+  return searchYoutube(YOUTUBE_API_KEY, options);
 };
 
 export default searchVideos;

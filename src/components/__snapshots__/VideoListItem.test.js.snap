@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoListItem Component should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VideoListItem
+    video={
+      Object {
+        "id": Object {
+          "videoId": 1,
+        },
+        "snippet": Object {
+          "thumbnails": Object {
+            "default": Object {
+              "url": "https://test.com/test.png",
+            },
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <figure
+          className="media-left"
+        >
+          <p
+            className="image is-128x128"
+          >
+            <img
+              alt="video preview"
+              src="https://test.com/test.png"
+            />
+          </p>
+        </figure>,
+        <div
+          className="media-content"
+        >
+          <div
+            className="field"
+          >
+            <div
+              className="control"
+            >
+              <h5
+                className="title is-5"
+              />
+            </div>
+            <p
+              className="control"
+            >
+              <strong>
+                 - 
+              </strong>
+            </p>
+          </div>
+        </div>,
+      ],
+      "className": "media video-list-item",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p
+            className="image is-128x128"
+          >
+            <img
+              alt="video preview"
+              src="https://test.com/test.png"
+            />
+          </p>,
+          "className": "media-left",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <img
+              alt="video preview"
+              src="https://test.com/test.png"
+            />,
+            "className": "image is-128x128",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "video preview",
+              "src": "https://test.com/test.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          "type": "p",
+        },
+        "type": "figure",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="field"
+          >
+            <div
+              className="control"
+            >
+              <h5
+                className="title is-5"
+              />
+            </div>
+            <p
+              className="control"
+            >
+              <strong>
+                 - 
+              </strong>
+            </p>
+          </div>,
+          "className": "media-content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="control"
+              >
+                <h5
+                  className="title is-5"
+                />
+              </div>,
+              <p
+                className="control"
+              >
+                <strong>
+                   - 
+                </strong>
+              </p>,
+            ],
+            "className": "field",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h5
+                  className="title is-5"
+                />,
+                "className": "control",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": undefined,
+                  "className": "title is-5",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "h5",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <strong>
+                     - 
+                  </strong>,
+                  undefined,
+                ],
+                "className": "control",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      undefined,
+                      " - ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                    " - ",
+                  ],
+                  "type": "strong",
+                },
+                undefined,
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <figure
+            className="media-left"
+          >
+            <p
+              className="image is-128x128"
+            >
+              <img
+                alt="video preview"
+                src="https://test.com/test.png"
+              />
+            </p>
+          </figure>,
+          <div
+            className="media-content"
+          >
+            <div
+              className="field"
+            >
+              <div
+                className="control"
+              >
+                <h5
+                  className="title is-5"
+                />
+              </div>
+              <p
+                className="control"
+              >
+                <strong>
+                   - 
+                </strong>
+              </p>
+            </div>
+          </div>,
+        ],
+        "className": "media video-list-item",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p
+              className="image is-128x128"
+            >
+              <img
+                alt="video preview"
+                src="https://test.com/test.png"
+              />
+            </p>,
+            "className": "media-left",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="video preview"
+                src="https://test.com/test.png"
+              />,
+              "className": "image is-128x128",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "video preview",
+                "src": "https://test.com/test.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "p",
+          },
+          "type": "figure",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="field"
+            >
+              <div
+                className="control"
+              >
+                <h5
+                  className="title is-5"
+                />
+              </div>
+              <p
+                className="control"
+              >
+                <strong>
+                   - 
+                </strong>
+              </p>
+            </div>,
+            "className": "media-content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="control"
+                >
+                  <h5
+                    className="title is-5"
+                  />
+                </div>,
+                <p
+                  className="control"
+                >
+                  <strong>
+                     - 
+                  </strong>
+                </p>,
+              ],
+              "className": "field",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <h5
+                    className="title is-5"
+                  />,
+                  "className": "control",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": undefined,
+                    "className": "title is-5",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "h5",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <strong>
+                       - 
+                    </strong>,
+                    undefined,
+                  ],
+                  "className": "control",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        undefined,
+                        " - ",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                      " - ",
+                    ],
+                    "type": "strong",
+                  },
+                  undefined,
+                ],
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

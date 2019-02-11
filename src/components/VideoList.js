@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import VideoListItem from "./VideoListItem";
-import searchVideos from "../YtAPI";
+import searchVideos from "../searchYtAPI";
 
 class VideoList extends Component {
   state = {
