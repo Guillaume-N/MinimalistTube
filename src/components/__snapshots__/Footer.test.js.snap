@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="content has-text-centered"
+      >
+        <p>
+          <strong>
+            Minimalist Tube
+          </strong>
+           is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.
+        </p>
+        <p>
+          <strong>
+            Made by
+             
+            <a
+              href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Guillaume Noël
+            </a>
+            .
+          </strong>
+        </p>
+      </div>,
+      "className": "footer",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            <strong>
+              Minimalist Tube
+            </strong>
+             is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.
+          </p>,
+          <p>
+            <strong>
+              Made by
+               
+              <a
+                href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Guillaume Noël
+              </a>
+              .
+            </strong>
+          </p>,
+        ],
+        "className": "content has-text-centered",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                Minimalist Tube
+              </strong>,
+              " is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Minimalist Tube",
+              },
+              "ref": null,
+              "rendered": "Minimalist Tube",
+              "type": "strong",
+            },
+            " is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <strong>
+              Made by
+               
+              <a
+                href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Guillaume Noël
+              </a>
+              .
+            </strong>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Made by",
+                " ",
+                <a
+                  href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Guillaume Noël
+                </a>,
+                ".",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Made by",
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Guillaume Noël",
+                  "href": "https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/",
+                  "rel": "noopener noreferrer",
+                  "target": "_blank",
+                },
+                "ref": null,
+                "rendered": "Guillaume Noël",
+                "type": "a",
+              },
+              ".",
+            ],
+            "type": "strong",
+          },
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="content has-text-centered"
+        >
+          <p>
+            <strong>
+              Minimalist Tube
+            </strong>
+             is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.
+          </p>
+          <p>
+            <strong>
+              Made by
+               
+              <a
+                href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Guillaume Noël
+              </a>
+              .
+            </strong>
+          </p>
+        </div>,
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <p>
+              <strong>
+                Minimalist Tube
+              </strong>
+               is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.
+            </p>,
+            <p>
+              <strong>
+                Made by
+                 
+                <a
+                  href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Guillaume Noël
+                </a>
+                .
+              </strong>
+            </p>,
+          ],
+          "className": "content has-text-centered",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <strong>
+                  Minimalist Tube
+                </strong>,
+                " is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Minimalist Tube",
+                },
+                "ref": null,
+                "rendered": "Minimalist Tube",
+                "type": "strong",
+              },
+              " is a clean YouTube clone uncluttered from all its distractions, so you can focus on what matters.",
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <strong>
+                Made by
+                 
+                <a
+                  href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Guillaume Noël
+                </a>
+                .
+              </strong>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Made by",
+                  " ",
+                  <a
+                    href="https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Guillaume Noël
+                  </a>,
+                  ".",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Made by",
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Guillaume Noël",
+                    "href": "https://www.linkedin.com/in/guillaume-no%C3%ABl-a689a0106/",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": "Guillaume Noël",
+                  "type": "a",
+                },
+                ".",
+              ],
+              "type": "strong",
+            },
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
